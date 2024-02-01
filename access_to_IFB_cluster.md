@@ -21,3 +21,15 @@ protocol : `SFTP-SSH`
 host : `core.cluster.france-bioinformatique.fr`
 authentification : ask password
 user : `student1`
+
+![image](https://github.com/ericpante/redcoral/assets/7203505/676f608e-3574-41ef-8d05-2aa9660843df)
+
+
+### Distant site on FileZilla :
+
+Home / scripts and job submission : `/shared/home/student1`
+(may appear as `/shared/ifbstor1/home/student1`)
+
+Data storage : /shared/projects/2302_redcoral`
+
+
