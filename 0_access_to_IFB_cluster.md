@@ -23,9 +23,11 @@ sbatch my-job.sh -A 2402_redcoral
 ### Configuration of FileZilla (see screenshot below as well)
 
 protocol : `SFTP-SSH`
-host : `core.cluster.france-bioinformatique.fr`'
-authentification : ask password'
-user : appr-2402-30'
+host : `core.cluster.france-bioinformatique.fr
+
+authentification : ask password
+
+user : appr-2402-30
 
 ![image](https://github.com/ericpante/redcoral/assets/7203505/676f608e-3574-41ef-8d05-2aa9660843df)
 
