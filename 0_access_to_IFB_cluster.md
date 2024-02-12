@@ -30,7 +30,7 @@ protocol : `SFTP-SSH`
 
 host : core.cluster.france-bioinformatique.fr
 
-authentification : ask password
+authentification : ask password (see email with account details)
 
 user : appr-2402-30
 
