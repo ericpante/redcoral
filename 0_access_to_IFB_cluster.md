@@ -32,9 +32,9 @@ user : appr-2402-30
 
 ### Distant site on FileZilla :
 
-Home / scripts and job submission : `/shared/home/appr-2402-30`
+Home / scripts and job submission : /shared/home/appr-2402-30
 (may appear as `/shared/ifbstor1/home/student1`)
 
-Data storage : /shared/projects/2402_redcoral/appr-2402-30`
+Data storage : /shared/projects/2402_redcoral/appr-2402-30
 
 
