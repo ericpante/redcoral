@@ -1,3 +1,8 @@
+### Access to a remote computer :
+ - if you are on linux, you can use the `ssh`command below using the `Konsole` app.
+ - if you are on MacOS, you can use the `ssh`command below using the `Terminal` app.
+ - if you are on Windows, you will need to download and install an app to communicate to a remote computer via the `ssh`protocol (this is called a ssh client). here are two options : https://mobaxterm.mobatek.net/download-home-edition.html and https://putty.org 
+
 ### Access to SLURM (to submit jobs) :
 
 ```
