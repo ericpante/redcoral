@@ -2,7 +2,7 @@
  - if you are on linux, you can use the `ssh`command below using the `Konsole` app.
  - if you are on MacOS, you can use the `ssh`command below using the `Terminal` app.
  - if you are on Windows, you will need to download and install an app to communicate to a remote computer via the `ssh`protocol (this is called a ssh client). here are three options : https://mobaxterm.mobatek.net/download-home-edition.html , https://putty.org and https://ubuntu.com/desktop/wsl
- - another strategy alltogether is to get linux up and running on your windows system (macos was built on unix). 
+ - another strategy alltogether is to get linux up and running on your windows system (macos was built on unix). Here are the instruction for running a virtual machine : https://github.com/ericpante/redcoral/blob/main/bioinfo_linux_engl.pdf for installing linux, we recommand ubuntu (https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
 ### More information on the IFB core cluster
 
