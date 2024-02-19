@@ -19,6 +19,22 @@ ssh student1@core.cluster.france-bioinformatique.fr
 ```
 cd /shared/projects/2402_redcoral
 ```
+On this directory, we are going to use the following files : 
+```
+[epante@core-login1 fastq_files]$ ls -l 
+total 1267516
+-rw-rw----+ 1 epante   epante   293995157 Feb  1 16:35 CR_lib4_sub.fastq.gz
+-rw-rw----+ 1 epante   epante   298435685 Feb  2 13:06 CR_lib5_sub.fastq.gz
+-rw-rw----+ 1 epante   epante   295771758 Feb  2 13:07 CR_lib6_sub.fastq.gz
+-rw-rw----+ 1 epante   epante   409670192 Feb  2 13:08 CR_lib7_sub.fastq.gz
+-rw-rw----+ 1 daurelle daurelle       563 Feb  1 16:35 barcodes_lib4.txt
+-rw-rw----+ 1 daurelle daurelle       582 Feb  1 16:35 barcodes_lib5.txt
+-rw-rw----+ 1 daurelle daurelle       583 Feb  1 16:35 barcodes_lib6.txt
+-rw-rw----+ 1 daurelle daurelle       583 Feb  1 16:35 barcodes_lib7.txt
+drwxrwx---+ 2 epante   epante        4096 Feb  2 13:22 biglibs
+```
+
+
 
 ### Submit a job (when connected) with access to the resources dedicated to the training session :
 
