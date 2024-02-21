@@ -96,8 +96,6 @@ to do so, write a `bash script`to load the `ipyrad` module and launch the analys
 ### Output
 #SBATCH --output=/shared/home/epante/ipyrad-%j.out  ### replace epante by your account name
 
-################################################################################
-
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)
 echo 'User:' $USER
@@ -114,17 +112,7 @@ cd /shared/projects/2402_redcoral/
 
 # first create a parameter file
 # module load ipyrad/0.9.84
-#ipyrad -n corail_subtest
-
-# edit the parameter file with a text editor
-# check locations and restriction site
-# then upload the file on the working directory
-
-#ipyrad -p /shared/projects/2402_redcoral/params-corail_sublib_test.txt  -s 234567
-ipyrad -p /shared/projects/2402_redcoral/params-corail_sublib_test.txt  -r                               
-
-echo '########################################'
-echo 'Job ipyrad finished' $(date --iso-8601=seconds)
+ipyrad -n params_[lib]_[initials].txt
 ```
 
-
+Please modify this script and put is in your home folder. Then, execute it using `sbatch`.
