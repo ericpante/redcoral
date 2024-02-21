@@ -60,4 +60,14 @@ Home / scripts and job submission : /shared/home/appr-2402-30
 
 Data storage : `/shared/projects/2402_redcoral/appr-2402-30`
 
+### running ipyrad on the IFB cluster
+
+You will need a folder with raw data and barcode/sample combination information. 
+```
+/shared/projects/2402_redcoral/fastq_files
+```
+To keep things unclutered, and to practice the use of the terminal, you can use the files from the shared project directly (`PATH` above) and put the results in your `HOME`directory. For me, the latter is : `/shared/home/epante/`. 
+
+Create your `params` file. Name your file as `params_[lib]_[initials].txt`. 
+to do so, write a `bash script`to load the `ipyrad` module and launch the analysis. 
 
