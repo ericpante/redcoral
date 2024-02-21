@@ -77,10 +77,10 @@ to do so, write a `bash script`to load the `ipyrad` module and launch the analys
 ################################ Slurm options #################################
 
 ### Job name
-#SBATCH --job-name=test
+#SBATCH --job-name=[YOUR_INITIALS]
 
 ### Limit run time "days-hours:minutes:seconds"
-#SBATCH --time=1:00:00
+#SBATCH --time=0:30:00
 
 ### Requirements
 #SBATCH --partition=fast
