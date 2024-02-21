@@ -118,3 +118,7 @@ ipyrad -n params_[lib]_[initials]  # careful, no extention, '.txt', no special c
 ```
 
 Please modify this script and put is in your home folder. Then, execute it using `sbatch`.
+Check the status of you job with `squeue`. Check the presence of the `params`file in your directory and read the log file (`ipyrad-[JOBID].out`). 
+
+
+
