@@ -114,7 +114,7 @@ module load ipyrad/0.9.84
 
 # first create a parameter file
 # module load ipyrad/0.9.84
-ipyrad -n params_[lib]_[initials].txt
+ipyrad -n params_[lib]_[initials]  # careful, no extention, '.txt', no special character!
 ```
 
 Please modify this script and put is in your home folder. Then, execute it using `sbatch`.
