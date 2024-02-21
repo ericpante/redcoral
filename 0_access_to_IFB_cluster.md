@@ -1,3 +1,6 @@
+### ipyrad docs: 
+https://ipyrad.readthedocs.io/en/master/7-outline.html 
+
 ### Access to a remote computer :
  - if you are on linux, you can use the `ssh`command below using the `Konsole` app.
  - if you are on MacOS, you can use the `ssh`command below using the `Terminal` app.
