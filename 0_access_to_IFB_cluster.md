@@ -71,3 +71,60 @@ To keep things unclutered, and to practice the use of the terminal, you can use 
 Create your `params` file. Name your file as `params_[lib]_[initials].txt`. 
 to do so, write a `bash script`to load the `ipyrad` module and launch the analysis. 
 
+```
+#!/bin/bash
+
+################################ Slurm options #################################
+
+### Job name
+#SBATCH --job-name=test
+
+### Limit run time "days-hours:minutes:seconds"
+#SBATCH --time=1:00:00
+
+### Requirements
+#SBATCH --partition=fast
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --mem-per-cpu=16GB
+#SBATCH --account=2402_redcoral
+
+### Email
+#SBATCH --mail-user=eric.pante@cnrs.fr
+#SBATCH --mail-type=ALL
+
+### Output
+#SBATCH --output=/shared/home/epante/ipyrad-%j.out
+
+################################################################################
+
+echo '########################################'
+echo 'Date:' $(date --iso-8601=seconds)
+echo 'User:' $USER
+echo 'Host:' $HOSTNAME
+echo 'Job Name:' $SLURM_JOB_NAME
+echo 'Job Id:' $SLURM_JOB_ID
+echo 'Directory:' $(pwd)
+echo '########################################'
+
+# modules loading
+module load ipyrad/0.9.84
+
+cd /shared/projects/2402_redcoral/
+
+# first create a parameter file
+# module load ipyrad/0.9.84
+#ipyrad -n corail_subtest
+
+# edit the parameter file with a text editor
+# check locations and restriction site
+# then upload the file on the working directory
+
+#ipyrad -p /shared/projects/2402_redcoral/params-corail_sublib_test.txt  -s 234567
+ipyrad -p /shared/projects/2402_redcoral/params-corail_sublib_test.txt  -r                               
+
+echo '########################################'
+echo 'Job ipyrad finished' $(date --iso-8601=seconds)
+```
+
+
