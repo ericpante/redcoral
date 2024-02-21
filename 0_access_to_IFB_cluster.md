@@ -90,11 +90,11 @@ to do so, write a `bash script`to load the `ipyrad` module and launch the analys
 #SBATCH --account=2402_redcoral
 
 ### Email
-#SBATCH --mail-user=eric.pante@cnrs.fr
+#SBATCH --mail-user=[your@email.edu]
 #SBATCH --mail-type=ALL
 
 ### Output
-#SBATCH --output=/shared/home/epante/ipyrad-%j.out
+#SBATCH --output=/shared/home/epante/ipyrad-%j.out  ### replace epante by your account name
 
 ################################################################################
 
