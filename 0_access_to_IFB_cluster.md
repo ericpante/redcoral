@@ -96,6 +96,8 @@ to do so, write a `bash script`to load the `ipyrad` module and launch the analys
 ### Output
 #SBATCH --output=/shared/home/epante/ipyrad-%j.out  ### replace epante by your account name
 
+######################## Info Printed as Standard Output #########################
+
 echo '########################################'
 echo 'Date:' $(date --iso-8601=seconds)
 echo 'User:' $USER
@@ -105,10 +107,10 @@ echo 'Job Id:' $SLURM_JOB_ID
 echo 'Directory:' $(pwd)
 echo '########################################'
 
+######################## loading ipyrad and running it #########################
+
 # modules loading
 module load ipyrad/0.9.84
-
-cd /shared/projects/2402_redcoral/
 
 # first create a parameter file
 # module load ipyrad/0.9.84
